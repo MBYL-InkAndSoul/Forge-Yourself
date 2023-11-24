@@ -21,6 +21,7 @@ repositories {
 }
 
 dependencies {
-    modImplementation "maven.modrinth:${d_mod}:${d_mod_version}"
+    // Don't forget set property in your gradle.properties!
+    modImplementation "maven.modrinth:fys:${fys_version}"
 }
 ```
