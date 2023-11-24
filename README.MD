@@ -7,3 +7,20 @@ Enjoy!
 # Source?
 
 This mod is close-source. This is only for uploading mod files and reporting issues.
+
+# How to use?
+
+Add to your build.gradle:
+
+```gradle
+repositories {
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+}
+
+dependencies {
+    modImplementation "maven.modrinth:${d_mod}:${d_mod_version}"
+}
+```
